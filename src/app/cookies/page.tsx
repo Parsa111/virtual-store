@@ -520,10 +520,10 @@ const CookiePolicyPage: React.FC = () => {
                   Questions about our cookie policy or need help with settings?
                 </p>
                 <Link 
-                  href="mailto:cookies@parsastore.com"
+                  href="mailto:cookies@virtualstore.com"
                   className="inline-flex items-center px-4 py-2 bg-orange-600 !text-white font-semibold rounded-lg hover:bg-orange-700 transition-colors whitespace-nowrap"
                 >
-                  cookies@parsastore.com
+                  cookies@virtualstore.com
                 </Link>
               </div>
               <div className="bg-gray-800 rounded-lg p-6">

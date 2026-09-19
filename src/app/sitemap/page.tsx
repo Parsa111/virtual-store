@@ -71,7 +71,7 @@ const SitemapPage: React.FC = () => {
       title: "Company Information",
       icon: Info,
       links: [
-        { href: "/about", label: "About Us", description: "Learn about Parsa Store" },
+        { href: "/about", label: "About Us", description: "Learn about Virtual Store" },
         { href: "/careers", label: "Careers", description: "Join our team" },
         { href: "/press", label: "Press", description: "Media resources and news" },
         { href: "/sustainability", label: "Sustainability", description: "Our environmental commitment" },
@@ -112,7 +112,7 @@ const SitemapPage: React.FC = () => {
               <h1 className="text-4xl md:text-5xl font-bold">Site Map</h1>
             </div>
             <p className="text-xl text-blue-100 mb-4">
-              Navigate through all pages and sections of Parsa Store
+              Navigate through all pages and sections of Virtual Store
             </p>
             <p className="text-blue-200">
               Find exactly what you're looking for with our complete site navigation
@@ -275,7 +275,7 @@ const SitemapPage: React.FC = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h3 className="text-lg font-semibold mb-2">Complete Site Navigation</h3>
             <p className="text-gray-300">
-              This sitemap provides a comprehensive overview of all pages and sections available on Parsa Store. 
+              This sitemap provides a comprehensive overview of all pages and sections available on Virtual Store. 
               If you can't find what you're looking for, please contact our support team.
             </p>
           </div>

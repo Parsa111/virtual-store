@@ -45,7 +45,7 @@ const AboutPage: React.FC = () => {
         <h1 className={`text-4xl md:text-5xl font-bold mb-6 transition-colors duration-300 ${
           isDarkMode ? '!text-white' : '!text-gray-900'
         }`}>
-          About Parsa Store
+          About Virtual Store
         </h1>
         <p className={`text-xl max-w-3xl mx-auto transition-colors duration-300 ${
           isDarkMode ? '!text-gray-300' : '!text-gray-600'
@@ -67,7 +67,7 @@ const AboutPage: React.FC = () => {
             <p className={`mb-4 transition-colors duration-300 ${
               isDarkMode ? '!text-gray-300' : '!text-gray-600'
             }`}>
-              At Parsa Store, we believe shopping should be simple, enjoyable, and accessible to everyone. 
+              At Virtual Store, we believe shopping should be simple, enjoyable, and accessible to everyone. 
               Our mission is to provide a seamless online shopping experience that connects customers 
               with high-quality products from trusted brands.
             </p>
@@ -103,7 +103,7 @@ const AboutPage: React.FC = () => {
       <div className="mb-16">
         <h2 className={`text-3xl font-bold text-center mb-12 transition-colors duration-300 ${
           isDarkMode ? '!text-white' : '!text-gray-900'
-        }`}>Why Choose Parsa Store?</h2>
+        }`}>Why Choose Virtual Store?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="text-center">
             <div className={`w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 transition-colors duration-300 ${
@@ -207,7 +207,7 @@ const AboutPage: React.FC = () => {
       <div className="bg-gradient-to-r from-blue-600 to-purple-700 text-white rounded-xl p-8 text-center">
         <h2 className="text-3xl font-bold mb-4 !text-white">Join Our Community</h2>
         <p className="text-blue-100 mb-8 max-w-2xl mx-auto !text-blue-100">
-          Become part of our growing community of satisfied customers who trust Parsa Store 
+          Become part of our growing community of satisfied customers who trust Virtual Store 
           for all their shopping needs.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

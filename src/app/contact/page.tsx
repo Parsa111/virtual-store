@@ -63,8 +63,8 @@ export default function ContactPage() {
               </div>
               <h3 className="text-lg font-semibold mb-2">Email Us</h3>
               <p className="text-gray-600 text-sm mb-3">Send us an email anytime</p>
-              <a href="mailto:support@parsastore.com" className="text-blue-600 hover:text-blue-700 font-medium">
-                support@parsastore.com
+              <a href="mailto:support@virtualstore.com" className="text-blue-600 hover:text-blue-700 font-medium">
+                support@virtualstore.com
               </a>
             </div>
 
@@ -318,7 +318,7 @@ export default function ContactPage() {
                 allowFullScreen={true}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Parsa Store Office Location"
+                title="Virtual Store Office Location"
                 className="w-full h-full"
               />
             </div>
@@ -330,7 +330,7 @@ export default function ContactPage() {
                   <MapPin className="w-5 h-5 text-blue-600" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-1">Parsa Store Headquarters</h3>
+                  <h3 className="font-semibold text-gray-900 mb-1">Virtual Store Headquarters</h3>
                   <p className="text-sm text-gray-600 mb-2">
                     123 Commerce Street<br />
                     New York, NY 10001

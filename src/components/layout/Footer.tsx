@@ -88,7 +88,7 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <Link href="/" className="text-2xl font-bold mb-4 block">
-              Parsa Store
+              Virtual Store
             </Link>
             <p className="text-gray-400 mb-6">
               Your trusted online marketplace for quality products at great prices. 
@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center text-gray-400">
                 <Mail className="w-4 h-4 mr-2" />
-                <span>support@parsastore.com</span>
+                <span>support@virtualstore.com</span>
               </div>
             </div>
           </div>
@@ -134,7 +134,7 @@ const Footer: React.FC = () => {
         <div className="py-6 border-t border-gray-800">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="text-gray-400 mb-4 md:mb-0">
-              © {currentYear} Parsa Store. All rights reserved.
+              © {currentYear} Virtual Store. All rights reserved.
             </div>
             
             {/* Social Links */}

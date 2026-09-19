@@ -1,6 +1,6 @@
-# ParsaStore - E-Commerce Frontend Application
+# Virtual Store - E-Commerce Frontend Application
 
-ParsaStore is a modern, feature-rich e-commerce frontend application built with Next.js 15, React 19, and TypeScript. This application provides a complete shopping experience with product browsing, cart management, admin dashboard, and more.
+Virtual Store is a modern, feature-rich e-commerce frontend application built with Next.js 15, React 19, and TypeScript. This application provides a complete shopping experience with product browsing, cart management, admin dashboard, and more.
 
 ## Features
 
@@ -69,10 +69,10 @@ ParsaStore is a modern, feature-rich e-commerce frontend application built with 
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/parsastore.git
+git clone https://github.com/your-username/virtualstore.git
 
 # Navigate to project directory
-cd parsastore
+cd virtualstore
 
 # Install dependencies
 npm install

@@ -166,7 +166,7 @@ const CheckoutPage: React.FC = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <Link href="/" className="text-2xl font-bold text-gray-900">
-              Parsa Store
+              Virtual Store
             </Link>
             <div className="flex items-center space-x-2">
               <Lock className="w-5 h-5 text-green-600" />

@@ -9,7 +9,7 @@ const TermsOfServicePage: React.FC = () => {
       icon: Users,
       title: "Acceptance of Terms",
       content: [
-        "By accessing and using the Parsa Store website and services, you accept and agree to be bound by the terms and provision of this agreement.",
+        "By accessing and using the Virtual Store website and services, you accept and agree to be bound by the terms and provision of this agreement.",
         "If you do not agree to abide by the above, please do not use this service.",
         "These terms apply to all visitors, users, and others who access or use the service."
       ]
@@ -18,7 +18,7 @@ const TermsOfServicePage: React.FC = () => {
       icon: FileText,
       title: "Use License",
       content: [
-        "Permission is granted to temporarily download one copy of the materials on Parsa Store's website for personal, non-commercial transitory viewing only.",
+        "Permission is granted to temporarily download one copy of the materials on Virtual Store's website for personal, non-commercial transitory viewing only.",
         "This is the grant of a license, not a transfer of title, and under this license you may not:",
         "• Modify or copy the materials",
         "• Use the materials for any commercial purpose or for any public display",
@@ -78,15 +78,15 @@ const TermsOfServicePage: React.FC = () => {
     },
     {
       title: "Intellectual Property",
-      content: "The service and its original content, features, and functionality are and will remain the exclusive property of Parsa Store and its licensors."
+      content: "The service and its original content, features, and functionality are and will remain the exclusive property of Virtual Store and its licensors."
     },
     {
       title: "Limitation of Liability",
-      content: "In no case shall Parsa Store, its directors, employees, or agents be liable for any injury, loss, claim, or any direct, indirect, incidental, punitive, special, or consequential damages of any kind."
+      content: "In no case shall Virtual Store, its directors, employees, or agents be liable for any injury, loss, claim, or any direct, indirect, incidental, punitive, special, or consequential damages of any kind."
     },
     {
       title: "Governing Law",
-      content: "These terms shall be interpreted and governed by the laws of the jurisdiction in which Parsa Store operates, without regard to its conflict of law provisions."
+      content: "These terms shall be interpreted and governed by the laws of the jurisdiction in which Virtual Store operates, without regard to its conflict of law provisions."
     },
     {
       title: "Changes to Terms",
@@ -120,8 +120,8 @@ const TermsOfServicePage: React.FC = () => {
             <div className="bg-white rounded-lg shadow-md p-8 mb-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Introduction</h2>
               <p className="text-gray-600 mb-4">
-                Welcome to Parsa Store. These Terms of Service ("Terms") govern your use of our website 
-                located at our domain and our service operated by Parsa Store.
+                Welcome to Virtual Store. These Terms of Service ("Terms") govern your use of our website 
+                located at our domain and our service operated by Virtual Store.
               </p>
               <p className="text-gray-600">
                 Our Privacy Policy also governs your use of the Service and explains how we collect, 
@@ -172,12 +172,12 @@ const TermsOfServicePage: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <h3 className="font-semibold mb-2">By Email:</h3>
-                  <p className="text-gray-300">support@parsastore.com</p>
+                  <p className="text-gray-300">support@virtualstore.com</p>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">By Mail:</h3>
                   <p className="text-gray-300">
-                    Parsa Store<br />
+                    Virtual Store<br />
                     123 Commerce Street<br />
                     New York, NY 10001
                   </p>

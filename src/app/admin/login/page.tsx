@@ -63,7 +63,7 @@ const AdminLoginPage: React.FC = () => {
         <div className="flex items-center justify-center">
           <Shield className="w-12 h-12 text-blue-600 mr-3" />
           <div>
-            <h1 className="text-2xl font-bold text-gray-900">Parsa Store</h1>
+            <h1 className="text-2xl font-bold text-gray-900">Virtual Store</h1>
             <p className="text-sm text-gray-600">Admin Portal</p>
           </div>
         </div>

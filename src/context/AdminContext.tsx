@@ -26,7 +26,7 @@ const ADMIN_CREDENTIALS = {
   data: {
     id: '1',
     username: 'admin',
-    email: 'admin@parsastore.com',
+    email: 'admin@virtualstore.com',
     role: 'admin' as const
   }
 };
@@ -37,14 +37,14 @@ export const AdminProvider: React.FC<{ children: ReactNode }> = ({ children }) =
 
   useEffect(() => {
     // Check if admin is already logged in (from localStorage)
-    const storedAdmin = localStorage.getItem('parsastore_admin');
+    const storedAdmin = localStorage.getItem('virtualstore_admin');
     if (storedAdmin) {
       try {
         const adminData = JSON.parse(storedAdmin);
         setAdmin(adminData);
       } catch (error) {
         console.error('Error parsing stored admin data:', error);
-        localStorage.removeItem('parsastore_admin');
+        localStorage.removeItem('virtualstore_admin');
       }
     }
     setIsLoading(false);
@@ -59,7 +59,7 @@ export const AdminProvider: React.FC<{ children: ReactNode }> = ({ children }) =
     if (username === ADMIN_CREDENTIALS.username && password === ADMIN_CREDENTIALS.password) {
       const adminData = ADMIN_CREDENTIALS.data;
       setAdmin(adminData);
-      localStorage.setItem('parsastore_admin', JSON.stringify(adminData));
+      localStorage.setItem('virtualstore_admin', JSON.stringify(adminData));
       setIsLoading(false);
       return true;
     }
@@ -70,7 +70,7 @@ export const AdminProvider: React.FC<{ children: ReactNode }> = ({ children }) =
 
   const logout = () => {
     setAdmin(null);
-    localStorage.removeItem('parsastore_admin');
+    localStorage.removeItem('virtualstore_admin');
   };
 
   const value: AdminContextType = {

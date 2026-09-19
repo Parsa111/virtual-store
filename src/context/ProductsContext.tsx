@@ -68,7 +68,7 @@ export const ProductsProvider: React.FC<{ children: ReactNode }> = ({ children }
 
   useEffect(() => {
     // Initialize with mock data and any stored products
-    const storedProducts = safeLocalStorage.getItem('parsastore_products');
+    const storedProducts = safeLocalStorage.getItem('virtualstore_products');
     if (storedProducts) {
       try {
         const parsedProducts = JSON.parse(storedProducts);
@@ -94,7 +94,7 @@ export const ProductsProvider: React.FC<{ children: ReactNode }> = ({ children }
       } catch (error) {
         console.error('Error parsing stored products:', error);
         // Clear corrupted data and use mock products
-        safeLocalStorage.removeItem('parsastore_products');
+        safeLocalStorage.removeItem('virtualstore_products');
         setProducts(mockProducts);
       }
     } else {
@@ -121,13 +121,13 @@ export const ProductsProvider: React.FC<{ children: ReactNode }> = ({ children }
       
       // Check if data size is reasonable (less than 4MB to be safe)
       if (dataToStore.length < 4 * 1024 * 1024) {
-        const success = safeLocalStorage.setItem('parsastore_products', dataToStore);
+        const success = safeLocalStorage.setItem('virtualstore_products', dataToStore);
         if (!success) {
           console.warn('Failed to store products, trying with essential data only');
           const essentialData = products.map(({ id, name, price, category, inStock, visible, featured }) => 
             ({ id, name, price, category, inStock, visible, featured, image: '', images: [] })
           );
-          safeLocalStorage.setItem('parsastore_products', JSON.stringify(essentialData));
+          safeLocalStorage.setItem('virtualstore_products', JSON.stringify(essentialData));
         }
       } else {
         console.warn('Product data too large for localStorage, storing basic info only');
@@ -135,16 +135,16 @@ export const ProductsProvider: React.FC<{ children: ReactNode }> = ({ children }
         const essentialData = products.map(({ id, name, price, category, inStock, visible, featured }) => 
           ({ id, name, price, category, inStock, visible, featured, image: '', images: [] })
         );
-        safeLocalStorage.setItem('parsastore_products', JSON.stringify(essentialData));
+        safeLocalStorage.setItem('virtualstore_products', JSON.stringify(essentialData));
       }
     } catch (error) {
       console.error('Failed to save products to localStorage:', error);
       // Try to clear localStorage and save essential data only
-      safeLocalStorage.removeItem('parsastore_products');
+      safeLocalStorage.removeItem('virtualstore_products');
       const essentialData = products.map(({ id, name, price, category, inStock, visible, featured }) => 
         ({ id, name, price, category, inStock, visible, featured, image: '', images: [] })
       );
-      safeLocalStorage.setItem('parsastore_products', JSON.stringify(essentialData));
+      safeLocalStorage.setItem('virtualstore_products', JSON.stringify(essentialData));
     }
   }, [products]);
 
@@ -199,14 +199,14 @@ export const ProductsProvider: React.FC<{ children: ReactNode }> = ({ children }
   };
 
   const clearStorage = (): void => {
-    safeLocalStorage.removeItem('parsastore_products');
+    safeLocalStorage.removeItem('virtualstore_products');
     setProducts(mockProducts);
     console.log('Storage cleared and reset to mock products');
   };
 
   const getStorageInfo = (): { size: number; itemCount: number } => {
     try {
-      const stored = safeLocalStorage.getItem('parsastore_products');
+      const stored = safeLocalStorage.getItem('virtualstore_products');
       return {
         size: stored ? stored.length : 0,
         itemCount: products.length

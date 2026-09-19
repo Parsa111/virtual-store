@@ -140,7 +140,7 @@ const AccessibilityPage: React.FC = () => {
               <h1 className="text-4xl md:text-5xl font-bold">Accessibility</h1>
             </div>
             <p className="text-xl text-blue-100 mb-4">
-              Our commitment to making Parsa Store accessible to everyone
+              Our commitment to making Virtual Store accessible to everyone
             </p>
             <p className="text-blue-200">
               We believe shopping should be accessible to all users, regardless of ability
@@ -156,7 +156,7 @@ const AccessibilityPage: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Accessibility Commitment</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Parsa Store is committed to ensuring digital accessibility for people with disabilities. 
+                Virtual Store is committed to ensuring digital accessibility for people with disabilities. 
                 We are continually improving the user experience for everyone, and applying the relevant 
                 accessibility standards to ensure we provide equal access to all of our users.
               </p>
@@ -345,7 +345,7 @@ const AccessibilityPage: React.FC = () => {
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Accessibility Feedback</h2>
             <div className="bg-blue-50 rounded-lg p-8 text-center">
               <p className="text-lg text-gray-700 mb-6">
-                We welcome your feedback on the accessibility of Parsa Store. Please let us know if you 
+                We welcome your feedback on the accessibility of Virtual Store. Please let us know if you 
                 encounter accessibility barriers or have suggestions for improvement.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -354,10 +354,10 @@ const AccessibilityPage: React.FC = () => {
                   <h3 className="font-semibold mb-2">Email Us</h3>
                   <p className="text-sm text-gray-600 mb-4">Send accessibility feedback or questions</p>
                   <Link 
-                    href="mailto:accessibility@parsastore.com"
+                    href="mailto:accessibility@virtualstore.com"
                     className="inline-flex items-center px-4 py-2 bg-blue-600 !text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors whitespace-nowrap"
                   >
-                    accessibility@parsastore.com
+                    accessibility@virtualstore.com
                   </Link>
                 </div>
                 <div className="bg-white rounded-lg p-6">

@@ -111,7 +111,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-gray-900">
-            Parsa Store
+            Virtual Store
           </Link>
 
           {/* Search bar - Desktop */}

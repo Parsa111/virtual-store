@@ -21,8 +21,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Parsa Store | Modern E-Commerce Platform",
+  title: "Virtual Store | Modern E-Commerce Platform",
   description: "Discover amazing products at great prices on our modern e-commerce platform",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
